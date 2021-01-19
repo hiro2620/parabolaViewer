@@ -26,7 +26,7 @@ export default function Header() {
             </Nav.Link>
           )}
         </Nav>
-        <Nav.Link href="#" >
+        <Nav.Link href="https://github.com/hiro2620/parabolaViewer/tree/master" >
           <AiFillGithub style={{ width: 28, height: 28 }} />
         </Nav.Link>
       </Navbar.Collapse>

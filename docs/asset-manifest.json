@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/parabolaViewer/static/css/main.637345ea.chunk.css",
+    "main.js": "/parabolaViewer/static/js/main.2e156749.chunk.js",
+    "main.js.map": "/parabolaViewer/static/js/main.2e156749.chunk.js.map",
+    "runtime-main.js": "/parabolaViewer/static/js/runtime-main.afb8f311.js",
+    "runtime-main.js.map": "/parabolaViewer/static/js/runtime-main.afb8f311.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/parabolaViewer/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.cb42a69b.chunk.js": "/parabolaViewer/static/js/2.cb42a69b.chunk.js",
+    "static/js/2.cb42a69b.chunk.js.map": "/parabolaViewer/static/js/2.cb42a69b.chunk.js.map",
+    "static/js/3.2800623b.chunk.js": "/parabolaViewer/static/js/3.2800623b.chunk.js",
+    "static/js/3.2800623b.chunk.js.map": "/parabolaViewer/static/js/3.2800623b.chunk.js.map",
+    "index.html": "/parabolaViewer/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/parabolaViewer/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.637345ea.chunk.css.map": "/parabolaViewer/static/css/main.637345ea.chunk.css.map",
+    "static/js/2.cb42a69b.chunk.js.LICENSE.txt": "/parabolaViewer/static/js/2.cb42a69b.chunk.js.LICENSE.txt",
+    "static/media/icon1.8804d4aa.svg": "/parabolaViewer/static/media/icon1.8804d4aa.svg",
+    "static/media/icon2.24d755a4.svg": "/parabolaViewer/static/media/icon2.24d755a4.svg",
+    "static/media/icon3.bb197821.svg": "/parabolaViewer/static/media/icon3.bb197821.svg",
+    "static/media/icon4.aab7457b.svg": "/parabolaViewer/static/media/icon4.aab7457b.svg",
+    "static/media/icon5.7b577b64.svg": "/parabolaViewer/static/media/icon5.7b577b64.svg",
+    "static/media/icon6.bda9a303.svg": "/parabolaViewer/static/media/icon6.bda9a303.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afb8f311.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.cb42a69b.chunk.js",
+    "static/css/main.637345ea.chunk.css",
+    "static/js/main.2e156749.chunk.js"
+  ]
+}

@@ -2,6 +2,7 @@
   "name": "uct-graph",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hiro2620.github.io/parabolaViewer/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -20,6 +21,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "rm": "rm -rf docs",
+    "mv": "mv build docs",
+    "git": "git add . && git commit && git push origin master",
+    "deploy": "yarn run rm && yarn run build && yarn run mv && yarn run git",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
