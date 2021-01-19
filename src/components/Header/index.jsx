@@ -9,6 +9,7 @@ import Icon3 from './icons/icon3.svg'
 import Icon4 from './icons/icon4.svg'
 import Icon5 from './icons/icon5.svg'
 import Icon6 from './icons/icon6.svg'
+import { AiFillGithub } from "react-icons/ai";
 
 export default function Header() {
   return (
@@ -25,6 +26,9 @@ export default function Header() {
             </Nav.Link>
           )}
         </Nav>
+        <Nav.Link href="#" >
+          <AiFillGithub style={{ width: 28, height: 28 }} />
+        </Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   )
