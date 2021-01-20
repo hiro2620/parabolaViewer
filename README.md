@@ -10,6 +10,10 @@
 https://hiro2620.github.io/parabolaViewer/
 
 
+## Note
+
+- ```/docs```ディレクトリはライブデモ用です。
+- WSL2(Ubuntu 20.04) on Windows 10 x64で動作確認済みです。
 
 -----------------------------------------------
 
