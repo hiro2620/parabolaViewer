@@ -11,9 +11,9 @@ https://hiro2620.github.io/parabolaViewer/
 
 
 ## Note
-
+- 推奨ブラウザ: Google Chrome (最新版)
 - ```/docs```ディレクトリはライブデモ用です。
-- WSL2(Ubuntu 20.04) on Windows 10 x64で動作確認済みです。
+- 開発環境はWSL2(Ubuntu 20.04) on Windows 10 x64で動作確認済みです。
 
 -----------------------------------------------
 
