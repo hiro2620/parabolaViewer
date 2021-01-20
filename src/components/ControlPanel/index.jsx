@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import RangeInput from './RangeInput'
 import EquationField from './EquationField'
 import CountInput from '../CountInput'

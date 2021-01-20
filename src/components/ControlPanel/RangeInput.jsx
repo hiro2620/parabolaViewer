@@ -49,7 +49,7 @@ export default function RangeInput(props) {
     <Form style={{ width: '100%', marginBottom: 30 }}>
       <Form.Group>
         <Form.Label style={{ fontFamily: 'serif', fontSize: 20, color: '#333' }}>
-          {letter}
+          {letter} =
         </Form.Label>
         <Form.Control
           value={orgRound(value, 100)}
