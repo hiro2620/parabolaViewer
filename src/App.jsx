@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import {
@@ -17,13 +17,15 @@ const defaultFuncParams = {
   c: 0
 }
 
-const maxValue = 10
-const maxInputValue = 3
+const defaultMaxValue = 10
+const defaultMaxInputValue = 10
 
 function App() {
 
   // const [windowSize, setWindowSize] = useState(window.innerWidth)
   const [funcParams, setFuncParams] = useState(defaultFuncParams)
+  const [maxValue, setMaxValue] = useState(defaultMaxValue)
+  const [maxInputValue, setMaxInputValue] = useState(defaultMaxInputValue)
 
   // useEffect(() => {
   //   const handleResizeWindow = () => {
@@ -47,12 +49,14 @@ function App() {
                 funcParams={funcParams}
                 setFuncParams={setFuncParams}
                 maxInputValue={maxInputValue}
+                setMaxInputValue={setMaxInputValue}
               />
             </section>
           </Col>
           <Col xs={12} lg={8}>
             <Graph
               maxValue={maxValue}
+              setMaxValue={setMaxValue}
               funcParams={funcParams}
             />
           </Col>

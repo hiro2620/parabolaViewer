@@ -1,6 +1,7 @@
 import React from 'react'
 import RuledLinePath from './RuledLinePath'
 import ParabolaPath from './ParabolaPath'
+import CountInput from '../CountInput'
 
 import {
   Form
@@ -57,6 +58,12 @@ export default function SvgGraph(props) {
           label='頂点を表示'
           value={showVertexPoint}
           handleChange={() => setShowVertexPoint(!showVertexPoint)}
+        />
+        <CountInput
+          value={maxValue}
+          setValue={props.setMaxValue}
+          label='軸の範囲'
+          allowZero={false}
         />
       </section>
     </section>

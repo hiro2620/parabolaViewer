@@ -13,7 +13,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Header() {
   return (
-    <Navbar bg="sub" expand="lg" fixed="top" style={{ borderBottom: '4px solid #263165', boxSizing: 'border-box', padding: 0 }}>
+    <Navbar bg="sub" fixed="top" style={{ borderBottom: '4px solid #263165', boxSizing: 'border-box', padding: 0 }}>
       <Navbar.Collapse>
         <Nav className="mr-auto">
           {[Icon1, Icon2, Icon3, Icon4, Icon5, Icon6].map((src, i) =>

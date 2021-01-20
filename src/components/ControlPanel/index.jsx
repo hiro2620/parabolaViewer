@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import RangeInput from './RangeInput'
 import EquationField from './EquationField'
+import CountInput from '../CountInput'
 
 function Wrap(props) {
   return (
@@ -52,6 +53,12 @@ export default function ControlPanel(props) {
           />
         )}
       </Wrap>
+      <CountInput
+        value={maxInputValue}
+        setValue={props.setMaxInputValue}
+        allowZero={false}
+        label='スライダーの範囲'
+      />
     </>
   )
 }
