@@ -1,3 +1,22 @@
+# Parabola Viewer
+
+二次関数の各係数を変更したときに、放物線の形状がどのように変化するかを見ることができるWebアプリです。
+
+同じ放物線を表すy=ax^2+bx+cとy=a(x-p)+qの各係数の関係も見ることができます。
+
+
+## Live Demo
+
+https://hiro2620.github.io/parabolaViewer/
+
+
+## Note
+- 推奨ブラウザ: Google Chrome (最新版)
+- ```/docs```ディレクトリはライブデモ用です。
+- 開発環境はWSL2(Ubuntu 20.04) on Windows 10 x64で動作確認済みです。
+
+-----------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
