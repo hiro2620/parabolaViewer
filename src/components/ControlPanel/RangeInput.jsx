@@ -35,7 +35,7 @@ export default function RangeInput(props) {
     props.handleChange((() => {
       if (letter === 'p') return ({
         b: Number(-2 * a * value),
-        c: Number(a * (value ** 2) + c - (b ** 2) / (4 * a)),
+        c: Number(a * (value ** 2) + c -(b ** 2) / (4 * a)),
       })
 
       if (letter === 'q') return ({
@@ -63,6 +63,7 @@ export default function RangeInput(props) {
           // value={inputValue}
           value={convValueToInput(value)}
           style={{ color: 'black' }}
+          disabled={(letter === 'p' || letter === 'q') && isNaN(value)}
         />
       </Form.Group>
     </Form>

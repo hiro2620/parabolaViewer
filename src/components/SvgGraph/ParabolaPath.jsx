@@ -54,7 +54,7 @@ export default function ParabolaPath(props) {
           <path d={`M ${pe.x} ${pe.y} L${p2.x} ${p2.y}`} stroke={subColor} opacity={0.5} />
         </>
       }
-      {showVertexPoint &&
+      {showVertexPoint && a !== 0 &&
         <rect
           x={convXPos(-b / (2 * a)) - 3}
           y={convYPos(f(-b / (2 * a))) - 3}
